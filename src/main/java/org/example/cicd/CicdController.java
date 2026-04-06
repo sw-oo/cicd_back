@@ -1,6 +1,5 @@
 package org.example.cicd;
 
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class CicdController {
     @GetMapping("/cicd")
     public String test() {
-        return "v1";
+        return "v2";
     }
 }
