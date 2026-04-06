@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class CicdController {
     @GetMapping("/cicd")
     public String test() {
-        return "v4";
+        return "v5";
     }
 }
